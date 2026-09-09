@@ -1,0 +1,219 @@
+/**
+ * 
+ * Author: Colin Wei
+ * File Created: March 6, 2026
+ * Description: CSS file for game
+ * 
+ */
+
+h1 {
+    margin: 0%;
+}
+
+#errMsg{
+    display: none;
+}
+
+.input{
+    justify-self: center;
+    padding: 2%;
+}
+
+#padThis{
+    padding-top: 10%;
+}
+
+#form{
+    padding-top: 40%;
+}
+
+#form2{
+    padding-top: 10%;
+    justify-items: center;
+}
+
+#lBoard{
+    padding-top: 10%;
+    text-align: center;
+}
+
+#outcome{
+    /* width: 100%; */
+    padding-top: 10%;
+    justify-self: center;
+}
+
+#container,
+#questions,
+#intro,
+#introPage,
+#instructions,
+#prelude,
+#results,
+#gameOver {
+    max-width: 480px;
+    height: 100svh;
+}
+
+#container{
+    background-color: lightblue;
+}
+
+#splash{
+    width: 100vw;
+}
+
+#errTxt{
+    padding-top: 10%;
+    text-align: center;
+}
+
+#msg{
+    text-align: center;
+}
+
+body {
+    margin: 0%;
+}
+
+ol {
+    margin-bottom: 10%;
+    margin-left: 10%    ;
+}
+
+#introPage {
+    display: none;
+    align-items: center;
+}
+
+.flexButton {
+    display: flex;
+    justify-content: center;
+}
+
+#start,
+#help,
+#nextQ,
+#return,
+#newGame {
+    width: 60%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
+}
+
+#title {
+    margin: 0%;
+}
+
+#title,
+#preQ,
+#preCD,
+#disp,
+#scoreDisp,
+#qNum,
+#instructions h1 {
+    padding-top: 10%;
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+#title {
+    margin-bottom: 10%;
+}
+
+#top {
+    margin-bottom: 2%;
+}
+
+#ansButtons {
+    height: 30%;
+}
+
+
+#gameOver h1,
+#gameOver h3,
+#errorMSG {
+    text-align: center;
+}
+
+#scoreboard,
+#submitScore {
+    display: flex;
+    justify-content: center;
+}
+
+#submitScore {
+    margin-bottom: 1%;
+}
+
+#instructions {
+    display: none;
+}
+
+#top {
+    display: flex;
+}
+
+#questions {
+    display: none;
+}
+
+
+#text {
+    display: block;
+    width: 70%;
+    padding: 2%;
+}
+
+#theQ {
+    text-align: center;
+    width: 100%;
+    padding-top: 5%;
+}
+
+#timer {
+    width: 30%;
+    padding: 2%;
+}
+
+#prelude {
+    display: none;
+}
+
+#ansButtons .ans {
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#resultQ {
+    display: none;
+}
+
+#gameOver {
+    display: none;
+}
+
+#gameOver h3 {
+    margin: 5px;
+}
+
+#intro {
+    display: flex;
+    align-items: center;
+}
+
+#rankCols {
+    display: flex;
+}
+
+#rank1,
+#rank2 {
+    width: 50%;
+}
+
+#rankCols p {
+    margin-left: 10%;
+}
